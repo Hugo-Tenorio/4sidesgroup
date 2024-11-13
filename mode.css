@@ -1,0 +1,46 @@
+/* Modo Claro (predeterminado) */
+body {
+    background: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Modo Oscuro */
+body.dark-mode {
+    background: #121212;
+    color: #ffffff;
+}
+
+/* Opcional: Cambia el estilo de la tabla y otros elementos */
+.dark-mode .table {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.dark-mode .dataTables_wrapper .dataTables_paginate .paginate_button {
+    --bs-pagination-bg: #444444;
+    --bs-pagination-border-color: #00549c;
+    --bs-pagination-border-radius: var(--bs-border-radius);
+    --bs-pagination-hover-color: #00549c;
+    color: var(--bs-pagination-hover-color);
+    --bs-pagination-disabled-bg: #77838e;
+    --bs-pagination-disabled-border-color: #77838e;
+}
+
+.dark-mode .page-link{
+    color: #fff;
+}
+
+.dark-mode .dataTables_wrapper .dataTables_filter input {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #666666;
+}
+
+
+.dark-mode .toggleDarkMode{
+    background-color: #dd8027;
+    color: #fff;
+}
+
+.dark-mode .pagination
